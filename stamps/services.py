@@ -145,12 +145,12 @@ class StampsService(BaseService):
     def create_add_on(self):
         """Create a new add-on object.
         """
-        return self.create("AddOnV7")
+        return self.create("AddOnV9")
 
     def create_customs(self):
         """Create a new customs object.
         """
-        return self.create("CustomsV3")
+        return self.create("CustomsV4")
 
     def create_array_of_customs_lines(self):
         """Create a new array of customs objects.
@@ -185,7 +185,7 @@ class StampsService(BaseService):
     def create_shipping(self):
         """Create a new shipping object.
         """
-        return self.create("RateV18")
+        return self.create("RateV22")
 
     def get_address(self, address):
         """Get a shipping address.

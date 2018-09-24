@@ -65,9 +65,9 @@ class StampsConfiguration(object):
             directory_path = os.path.dirname(file_path)
 
             if wsdl == "testing":
-                file_name = "stamps_v{0}.test.wsdl".format(VERSION)
+                file_name = "test.wsdl".format(VERSION)
             else:
-                file_name = "stamps_v{0}.wsdl".format(VERSION)
+                file_name = "prod.wsdl".format(VERSION)
 
             wsdl = os.path.join(directory_path, "wsdls", file_name)
             self.wsdl = urljoin("file:", pathname2url(wsdl))

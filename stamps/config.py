@@ -15,7 +15,7 @@ from urlparse import urljoin
 import os
 
 
-VERSION = 49
+VERSION = 61
 
 
 class StampsConfiguration(object):
